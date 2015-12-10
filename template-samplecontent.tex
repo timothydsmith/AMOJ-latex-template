@@ -38,6 +38,13 @@
 \textsuperscript{3} Institution, City, Country\\%
 }
 
+
+% Corresponding author details
+\cauthorname{First A. Author}
+\cauthoraddress{Postal Address (inc. country)}
+\cauthoremail{author@test.com}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Provenance Information
 % Editorial Office Use Only
@@ -49,6 +56,7 @@
 \doi{DOI}
 \copyrightyear{2015}
 \copyrightauthor{Author et al}
+\setcounter{page}{1} % Starting page number for the article
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -80,7 +88,7 @@ Please choose the location where you insert your figure into the template wisely
 
 Figures can be inserted by clicking on the ``Picture'' button on the ``Insert'' tab of the ribbon. Figures must be centre justified on their own line and have text wrapping should be set to ``In line with text.''
 
-Authors are strongly encouraged to join multi-part figures into a single image before attempting to insert the figure into the article template. 
+Authors are strongly encouraged to join multi-part figures into a single image before attempting to insert the figure into the article template.
 
 \subsection{Referencing figures}
 \label{referencing_figures}
@@ -99,7 +107,7 @@ References to figures in the text should be achieved with the use of cross-refer
 \label{tables}
 Tables can be inserted by clicking on the “Table” button on the “Insert” tab of the Ribbon.
 
-Tables should be styled using the AMOJ Table Style included in the template, accessible via the Table Tools > Design ribbon tab. The AMOJ Table Style is listed in the “Custom” group; the style name can be found by hovering your mouse over the style preview image. 
+Tables should be styled using the AMOJ Table Style included in the template, accessible via the Table Tools > Design ribbon tab. The AMOJ Table Style is listed in the “Custom” group; the style name can be found by hovering your mouse over the style preview image.
 
 All tables should be centre justified on the page, and should only be as wide as is necessary to adequately display the content.
 
@@ -126,11 +134,23 @@ Each table must have a brief caption that describes its contents that must be un
 
 \section{Figure and table captions}
 \label{FigureTableCaptions}
-Each figure and table must have an adequate caption set above the figure or table. These captions, and the caption labels, must part of the main article text and not part of the figure or drawing. 
+Each figure and table must have an adequate caption set above the figure or table. These captions, and the caption labels, must part of the main article text and not part of the figure or drawing.
 
 Captions should be added by right clicking on the figure and selecting “Insert caption” or selecting the entire table, right clicking and choosing “Insert caption.” This method will ensure that figures and tables are numbered correctly and that cross-references link to the correct place within the article.
 
 Caption labels (e.g. Figure 1) must be separated from the caption text by a single tab character. Punctuation marks should not be used to separate caption labels and the caption text.
+
+\section{Corresponding Author Details}
+\label{CorrespondingAuthorDetails}
+Details of the corresponding author must be included in the footer of the manuscript on the first page. Details must include:
+
+\begin{itemize}
+  \item Full name;
+  \item Email address; and
+  \item Full postal address, including country.
+\end{itemize}
+
+This information should be entered using the custom LaTeX commands \verb|\cauthorname|, \verb|\cauthoraddress|, and \verb|\cauthoremail|. The AMOJ LaTeX Template includes these commands as standard.
 
 \section{Mathematical symbols and formulae}
 \label{MathematicalSymbolsFormualae}
@@ -154,30 +174,20 @@ The following guidelines should be followed when using equations:
 
 \section{Units}
 \label{Unites}
-The International System of Units is standard in the Southern Hemisphere Earth System Science and SI (m, kg, s, K) units should be used throughout. 
+The International System of Units is standard in the Southern Hemisphere Earth System Science and SI (m, kg, s, K) units should be used throughout.
 
 Words and symbols for units should not be mixed; in general, symbols should be used only when preceded by a number (thus `10 m', but `several metres').
 
 Unit symbols are not punctuated, i.e. they are not treated as abbreviations; the same symbol is used for both singular and plural.
 
-Note that, although the Kelvin is the unit of temperature in the SI, the degree sign must be used in writing temperatures or temperature differences in the Celsius scale, i.e. `272 K', but `22 \textdegree C.' 
+Note that, although the Kelvin is the unit of temperature in the SI, the degree sign must be used in writing temperatures or temperature differences in the Celsius scale, i.e. `272 K', but `22 \textdegree C.'
 
-Day, month and year are written `29 December 1959' (do not abbreviate names of months). 
+Day, month and year are written `29 December 1959' (do not abbreviate names of months).
 
 The recommended time zone is Coordinated Universal Time, abbreviated UTC. Time, time zone, day, month and year are written `2330 UTC 29 December 1959', in some instances the use of other time zones is permissible, for example, AEST (150?E meridian civil time).
 
 \section{Abbreviations}
 Unless repetitive, abbreviations should be avoided, especially of organisations (write `World Meteorological Organization' not `WMO'), and acronyms should be identified with their first use, e.g. `clear-air turbulence (CAT).'
-
-\section{Author Contributions}
-A section must be included that details the contributions of each author to the preparation of the manuscript and the underlying study.
-
-Immediately following this, the contact details of the corresponding author must appear, including:
-\begin{itemize}
-  \item Full name;
-  \item Email address; and
-  \item Full postal address, including country.
-\end{itemize}
 
 \section{Acknowledgments}
 \label{Acknowledgments}

@@ -29,6 +29,9 @@
 \newcommand{\volume}[1]{\def\@volume{#1}}
 \newcommand{\issue}[1]{\def\@issue{#1}}
 \newcommand{\doi}[1]{\def\@doi{#1}}
+\newcommand{\cauthorname}[1]{\def\@cauthorname{#1}}
+\newcommand{\cauthoraddress}[1]{\def\@cauthoraddress{#1}}
+\newcommand{\cauthoremail}[1]{\def\@cauthoremail{#1}}
 
 % Header Styles
 % -------------
@@ -52,9 +55,7 @@
   % \lhead{\scriptsize \@copyrightauthor. \textit{Australian Meteorological and Oceanographic Journal} (\@copyrightyear) \@volume:\@issue\\DOI: \@doi}
   \lhead{\scriptsize \@copyrightauthor. \textit{Australian Meteorological and Oceanographic Journal} (\@copyrightyear) \@volume:\@issue\\ \hfill}
   %%%%
-  \lfoot{\footnotesize \textcopyright\ \@copyrightyear\ \@copyrightauthor. This is an open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
-(\url{http://creativecommons.org/licenses/by/4.0/}), which permits unrestricted use, distribution, and reproduction in any medium, provided you give
-appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.}
+  \lfoot{\footnotesize \textit{Corresponding author address}: \@cauthorname, \@cauthoraddress \\ \textit{Email}: \@cauthoremail}
 }
 
 
