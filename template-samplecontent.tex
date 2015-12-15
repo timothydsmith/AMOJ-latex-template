@@ -3,6 +3,7 @@
 % Not using XeTeX is not going to break anything, it just means that your compiled article
 % may look a little different to what it's meant to.
 % XeTeX comes bundled with most LaTeX distributions, so everything will probably work fine...
+% Just run xelatex foo.tex (or xetex foo.tex) instead of latex foo.tex (tex foo.tex
 \documentclass[10pt]{article}
 
 
@@ -55,7 +56,7 @@
 \issue{Issue}
 \shorttitle{Short Article Title}
 \copyrightyear{2015}
-\copyrightauthor{Author et al}
+\copyrightauthor{Author et al} % Don't put a full stop after et al here as it will get added automatically.
 \setcounter{page}{1} % Starting page number for the article
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
