@@ -86,6 +86,7 @@ All manuscripts submitted for publication in AMOJ must make use of one of these 
 > 2. Unzip the archive to a new folder in a location that you choose.
 > 3. Open either `template.tex` or `template-samplecontent.tex` with your text editor. The files are identical except `template-samplecontent.tex` contains a mock article containing guidance on how to layout and style your article.
 > 4. Add your own content to either file.
+> 5. Compile to PDF. **NB:** Articles using the AMOJ LaTeX Template must be compiled using the XeTeX (xelatex) typesetting engine to produce the correct fonts. Not using XeTeX is not going to break anything, it just means that your compiled article may look a little different to what it's meant to. The Editorial Office will recompile your article in this instance. XeTeX comes bundled with most LaTeX distributions, so everything will probably work fine, you just need to explicitly invoke it: run xelatex foo.tex (or xetex foo.tex) instead of latex foo.tex (tex foo.tex)
 
 
 <a name="structure"></a>
