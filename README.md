@@ -62,7 +62,7 @@ AMOJ is published online as an open access publication. AMOJ does not charge aut
 For your convenience, AMOJ provides manuscript templates in two formats:
 
 - Microsoft Word 2007 and above (LINK TODO)
-- LaTeX (LINK TODO)
+- [LaTeX](https://github.com/timothydsmith/AMOJ-latex-template)
 
 All manuscripts submitted for publication in AMOJ must make use of one of these templates.
 
@@ -82,7 +82,7 @@ All manuscripts submitted for publication in AMOJ must make use of one of these 
 
 > **LaTeX users:**
 >
-> 1. Download the [AMOJ LaTeX Template](LINK TODO) to your computer.
+> 1. Download the [AMOJ LaTeX Template](https://github.com/timothydsmith/AMOJ-latex-template) to your computer.
 > 2. Unzip the archive to a new folder in a location that you choose.
 > 3. Open either `template.tex` or `template-samplecontent.tex` with your text editor. The files are identical except `template-samplecontent.tex` contains a mock article containing guidance on how to layout and style your article.
 > 4. Add your own content to either file.
