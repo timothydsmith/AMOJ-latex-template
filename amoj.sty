@@ -33,6 +33,7 @@
 \newcommand{\cauthorname}[1]{\def\@cauthorname{#1}}
 \newcommand{\cauthoraddress}[1]{\def\@cauthoraddress{#1}}
 \newcommand{\cauthoremail}[1]{\def\@cauthoremail{#1}}
+\newcommand{\pagenumprefix}[1]{\def\@pagenumprefix{#1}}
 
 % Header Styles
 % -------------
@@ -44,7 +45,7 @@
 \renewcommand{\footrulewidth}{0pt}
 % Specify the main header (include a line break and horizontal space fill to account for DOI on first page, if we end up using one...)
 \lhead{\scriptsize \@copyrightauthor. \@shorttitle \\ \hfill}
-\rhead{\scriptsize \thepage \\ \hfill}
+\rhead{\scriptsize \@pagenumprefix\thepage \\ \hfill}
 
 % First page headings
 % We redefine the 'plain' page style because LaTeX automatically sets the current page style to plain with \maketitle
