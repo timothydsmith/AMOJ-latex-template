@@ -1,4 +1,4 @@
-# Notes for contributors to the Australian Meteorological and Oceanographic Journal
+# Notes for contributors to the Journal of Southern Hemisphere Earth Systems Science
 
 <!-- MarkdownTOC -->
 
@@ -7,7 +7,7 @@
 - [How to submit](#how-to-submit)
 - [Preparing your manuscript](#preparing-your-manuscript)
   - [Templates](#templates)
-    - [Using the AMOJ templates](#using-the-amoj-templates)
+    - [Using the JSHESS templates](#using-the-jshess-templates)
   - [Structure](#structure)
     - [Title](#title)
     - [Author name(s)](#author-names)
@@ -41,11 +41,11 @@
 <a name="general"></a>
 ## General
 
-All manuscripts that are submitted to AMOJ must not have been published elsewhere in another publication of any type and in any manner that could be construed as a prior or duplicate publication of the same, or very similar work, nor may they be under consideration for publication elsewhere.
+All manuscripts that are submitted to JSHESS must not have been published elsewhere in another publication of any type and in any manner that could be construed as a prior or duplicate publication of the same, or very similar work, nor may they be under consideration for publication elsewhere.
 
-Authors of papers accepted for publication will receive galley proofs only. As AMOJ is an online-only journal, reprints will not be available.
+Authors of papers accepted for publication will receive galley proofs only. As JSHESS is an online-only journal, reprints will not be available.
 
-All articles published in AMOJ are published under the terms of the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided appropriate credit is given to the original author(s) and the source, a link to the Creative Commons license is provided, and any changes made are indicated.
+All articles published in JSHESS are published under the terms of the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided appropriate credit is given to the original author(s) and the source, a link to the Creative Commons license is provided, and any changes made are indicated.
 
 <a name="how-to-submit"></a>
 ## How to submit
@@ -54,39 +54,39 @@ Submissions should be made direct to the Managing Editor (TODO) by email. Author
 <a name="preparing-your-manuscript"></a>
 ## Preparing your manuscript
 
-AMOJ is published online as an open access publication. AMOJ does not charge authors page fees to publish their manuscripts, however, in return, AMOJ expects authors to assist in the preparation of manuscripts by using the AMOJ article templates and abiding by the formatting and presentation guidelines below.
+JSHESS is published online as an open access publication. JSHESS does not charge authors page fees to publish their manuscripts, however, in return, JSHESS expects authors to assist in the preparation of manuscripts by using the JSHESS article templates and abiding by the formatting and presentation guidelines below.
 
 <a name="templates"></a>
 ### Templates
 
-For your convenience, AMOJ provides manuscript templates in two formats:
+For your convenience, JSHESS provides manuscript templates in two formats:
 
 - Microsoft Word 2007 and above (LINK TODO)
-- [LaTeX](https://github.com/timothydsmith/AMOJ-latex-template)
+- [LaTeX](https://github.com/timothydsmith/JSHESS-latex-template)
 
-All manuscripts submitted for publication in AMOJ must make use of one of these templates.
+All manuscripts submitted for publication in JSHESS must make use of one of these templates.
 
-<a name="using-the-amoj-templates"></a>
-#### Using the AMOJ templates
+<a name="using-the-jshess-templates"></a>
+#### Using the JSHESS templates
 
 > **Microsoft Word users:**
 >
 > *The following instructions are provided for users of Microsoft Word 2010. Users with other versions of Microsoft Word should consult the Word documentation to ensure that they apply the templates correctly.*
 >
-> 1. Download the [AMOJ Word Template](LINK TODO) to your computer.
+> 1. Download the [JSHESS Word Template](LINK TODO) to your computer.
 > 2. Open Word and click `File > New` to display a list of available templates.
 > 3. Choose the option `New from existing`.
-> 4. Navigate to where you downloaded the AMOJ template.
-> 5. Select the file `AMOJArticle.dotx` and click `Create New`. This will load a new document using the AMOJ Word Template instead of the default template. You should see a mock article containing guidance on how to layout and style your article.
+> 4. Navigate to where you downloaded the JSHESS template.
+> 5. Select the file `JSHESSArticle.dotx` and click `Create New`. This will load a new document using the JSHESS Word Template instead of the default template. You should see a mock article containing guidance on how to layout and style your article.
 > 6. Replace the sample content with your own content.
 
 > **LaTeX users:**
 >
-> 1. Download the [AMOJ LaTeX Template](https://github.com/timothydsmith/AMOJ-latex-template) to your computer.
+> 1. Download the [JSHESS LaTeX Template](https://github.com/timothydsmith/JSHESS-latex-template) to your computer.
 > 2. Unzip the archive to a new folder in a location that you choose.
 > 3. Open either `template.tex` or `template-samplecontent.tex` with your text editor. The files are identical except `template-samplecontent.tex` contains a mock article containing guidance on how to layout and style your article.
 > 4. Add your own content to either file.
-> 5. Compile to PDF. **NB:** Articles using the AMOJ LaTeX Template must be compiled using the XeTeX (xelatex) typesetting engine to produce the correct fonts. Not using XeTeX is not going to break anything, it just means that your compiled article may look a little different to what it's meant to. The Editorial Office will recompile your article in this instance. XeTeX comes bundled with most LaTeX distributions, so everything will probably work fine, you just need to explicitly invoke it: run xelatex foo.tex (or xetex foo.tex) instead of latex foo.tex (tex foo.tex)
+> 5. Compile to PDF. **NB:** Articles using the JSHESS LaTeX Template must be compiled using the XeTeX (xelatex) typesetting engine to produce the correct fonts. Not using XeTeX is not going to break anything, it just means that your compiled article may look a little different to what it's meant to. The Editorial Office will recompile your article in this instance. XeTeX comes bundled with most LaTeX distributions, so everything will probably work fine, you just need to explicitly invoke it: run xelatex foo.tex (or xetex foo.tex) instead of latex foo.tex (tex foo.tex)
 
 
 <a name="structure"></a>
@@ -123,7 +123,7 @@ Numbers indicating author affiliations (see above) should be included in superte
 
 > Example: John D. Smith,<sup>1</sup> Jane. B. Citizen<sup>2</sup> and Joseph C. Doe<sup>3</sup>
 
-Collaborative groups may be included in author lists, however AMOJ currently cannot provide a means for including a listing of individual members of collaborative groups.
+Collaborative groups may be included in author lists, however JSHESS currently cannot provide a means for including a listing of individual members of collaborative groups.
 
 <a name="author-affiliation"></a>
 #### Author affiliation
@@ -218,7 +218,7 @@ All figures should be mentioned specifically in the text: e.g. Figure 1.
 >
 > Tables can be inserted by clicking on the “Table” button on the “Insert” tab of the Ribbon.
 >
-> Tables should be styled using the AMOJ Table Style included in the template, accessible via the `Table Tools > Design` tab on the Ribbon. The AMOJ Table Style is listed in the “Custom” group; the style name can be found by hovering your mouse over the style preview image.
+> Tables should be styled using the JSHESS Table Style included in the template, accessible via the `Table Tools > Design` tab on the Ribbon. The JSHESS Table Style is listed in the “Custom” group; the style name can be found by hovering your mouse over the style preview image.
 >
 > All tables should be centre justified on the page, and should only be as wide as is necessary to adequately display the con-tent.
 >
@@ -228,7 +228,7 @@ All figures should be mentioned specifically in the text: e.g. Figure 1.
 >
 > Refer to `template-samplecontent.tex` for an example of the best way to insert tables into your article.
 >
-> Note that by default the AMOJ LaTeX Template provides a custom table environment `AMOJTable`. This is built on top of the [tabularx](https://www.ctan.org/pkg/tabularx?lang=en) package which provides adjustable-width columns. Refer to the [tabularx package documentation](https://www.ctan.org/pkg/tabularx?lang=en) for more information on how to take advantage of all the options of this package.
+> Note that by default the JSHESS LaTeX Template provides a custom table environment `JSHESSTable`. This is built on top of the [tabularx](https://www.ctan.org/pkg/tabularx?lang=en) package which provides adjustable-width columns. Refer to the [tabularx package documentation](https://www.ctan.org/pkg/tabularx?lang=en) for more information on how to take advantage of all the options of this package.
 
 Each table must have a brief caption that describes its contents that must be understandable without reference to the text. The captions should be formatted the same as for figures.
 
@@ -269,7 +269,7 @@ Details of the corresponding author must be included in the footer of the manusc
 
 > **LaTeX users:**
 >
-> This information should be entered using the custom LaTeX commands `\cauthorname`, `\cauthoraddress`, and `\cauthoremail`. The AMOJ LaTeX Template includes these commands as standard.
+> This information should be entered using the custom LaTeX commands `\cauthorname`, `\cauthoraddress`, and `\cauthoremail`. The JSHESS LaTeX Template includes these commands as standard.
 
 
 <a name="acknowledgements"></a>
@@ -290,7 +290,7 @@ References must follow the Harvard referencing style. A [guide to this referenci
 
 Authors are responsible for the accuracy and completeness of all references.
 
-AMOJ strongly encourages the use of a reference manager such as [Endnote](http://endnote.com/), [Mendeley](https://www.mendeley.com/), or [Zotero](https://www.zotero.org/) to ensure that reference lists are formatted correctly. If you wish to compile your reference list manually, a site like [Harvard Generator](http://www.harvardgenerator.com/) can be helpful to ensure the proper formatting is applied.
+JSHESS strongly encourages the use of a reference manager such as [Endnote](http://endnote.com/), [Mendeley](https://www.mendeley.com/), or [Zotero](https://www.zotero.org/) to ensure that reference lists are formatted correctly. If you wish to compile your reference list manually, a site like [Harvard Generator](http://www.harvardgenerator.com/) can be helpful to ensure the proper formatting is applied.
 
 <a name="examples"></a>
 ###### Examples
@@ -315,7 +315,7 @@ Trewin, B.C. 2010. Site location effects on measured precipitation in highly exp
 ##### In-text citations
 > **LaTeX users:**
 >
-> The AMOJ LaTeX Template provides the [natbib](https://www.ctan.org/pkg/natbib?lang=en) package by default, thus the additional in-text citation commands are available, including: `\citet`, `\citeauthor`, and `\citeyear`. A [useful quick reference sheet for the natbib commands](http://merkel.zoneo.net/Latex/natbib.php) is provided by S&eacute;bastien Merkel.
+> The JSHESS LaTeX Template provides the [natbib](https://www.ctan.org/pkg/natbib?lang=en) package by default, thus the additional in-text citation commands are available, including: `\citet`, `\citeauthor`, and `\citeyear`. A [useful quick reference sheet for the natbib commands](http://merkel.zoneo.net/Latex/natbib.php) is provided by S&eacute;bastien Merkel.
 
 In-text citations citation should consist of the name of the author and the year of publication. Thus, 'according to Halley (1686)', or 'as shown by an earlier study (Halley 1686)'. When there are two or more papers by the same author published in the same year, the distinguishing letters a, b, etc., should be added to the year.
 
@@ -333,7 +333,7 @@ Equations should, where appropriate, be included in-line with the main body text
 
 > **Microsoft Word users:**
 >
-> Properly formatted equations can be easily inserted in the correct format by using the provided AMOJ Equation template. This can be done by clicking the arrow under the `equation` icon on the `Insert` tab on the Ribbon and choosing `AMOJ Equation` from the list of equation templates.
+> Properly formatted equations can be easily inserted in the correct format by using the provided JSHESS Equation template. This can be done by clicking the arrow under the `equation` icon on the `Insert` tab on the Ribbon and choosing `JSHESS Equation` from the list of equation templates.
 
 > **LaTeX users:**
 >

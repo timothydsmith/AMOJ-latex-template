@@ -1,5 +1,5 @@
 %%
-%% This is file `amoj.bst',
+%% This is file `jshess.bst',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
@@ -9,7 +9,7 @@
 %% merlin.mbs  (with options: `tail,exlang,ay,nat,nm-rvvc,keyxyr,dt-beg,yr-per,yrp-per,note-yr,volp-com,pp-last,num-xser,btit-rm,bt-rm,pre-edn,isbn,issn,doi,edparxc,bkedcap,english,ppx,ed,abr,xedn,etal-xc,url,url-blk,nfss,,{}')
 %% ----------------------------------------
 %% ***  ***
-%% 
+%%
 %% Copyright 1994-2011 Patrick W Daly
  % ===============================================================
  % IMPORTANT NOTICE:
@@ -1592,4 +1592,4 @@ FUNCTION {end.bib}
 EXECUTE {end.bib}
 %% End of customized bst file
 %%
-%% End of file `amoj.bst'.
+%% End of file `jshess.bst'.

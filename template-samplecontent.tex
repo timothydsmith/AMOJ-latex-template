@@ -1,5 +1,5 @@
 %!TEX program = xelatex
-% AMOJ requires the use of the XeTeX (xelatex) typesetting engine to produce the correct fonts
+% JSHESS requires the use of the XeTeX (xelatex) typesetting engine to produce the correct fonts
 % Not using XeTeX is not going to break anything, it just means that your compiled article
 % may look a little different to what it's meant to.
 % XeTeX comes bundled with most LaTeX distributions, so everything will probably work fine...
@@ -7,13 +7,13 @@
 \documentclass[10pt]{article}
 
 
-% Include the amoj package. It's what formats your article correctly
-\usepackage{amoj}
+% Include the jshess package. It's what formats your article correctly
+\usepackage{jshess}
 
 
 % The title should be both brief and descriptive. It must clearly communicate the nature of the article.
 % Ideally, your title should incorporate a key phrase related to your topic within the first 65 characters.
-\title{Preparing your AMOJ Manuscript}
+\title{Preparing your JSHESS Manuscript}
 
 
 % Individual author names must be listed in the following style:
@@ -107,9 +107,7 @@ References to figures in the text should be achieved with the use of cross-refer
 
 \section{Tables}
 \label{tables}
-Tables can be inserted by clicking on the “Table” button on the “Insert” tab of the Ribbon.
-
-Tables should be styled using the AMOJ Table Style included in the template, accessible via the Table Tools > Design ribbon tab. The AMOJ Table Style is listed in the “Custom” group; the style name can be found by hovering your mouse over the style preview image.
+Tables should be styled using the JSHESSTable environment included in the template.
 
 All tables should be centre justified on the page, and should only be as wide as is necessary to adequately display the content.
 
@@ -119,9 +117,9 @@ Each table must have a brief caption that describes its contents that must be un
 
 \begin{table}[h]
   \centering
-    \caption{An example of a table using the AMOJ Table Layout}
+    \caption{An example of a table using the JSHESS Table Layout}
     \label{table:exampleTable}
-    \begin{AMOJTable}{\textwidth}{XXX}
+    \begin{JSHESSTable}{\textwidth}{XXX}
       \hline \\
       \textit{Column Heading}                                   & \textit{Column Heading}                                                         & \textit{Column Heading}                                                                   \\
       \hline \\
@@ -131,7 +129,7 @@ Each table must have a brief caption that describes its contents that must be un
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. & Eius adipisci, sed libero. Iste asperiores suscipit, consequatur debitis animi. & Impedit numquam facilis iusto porro labore dolorem, maxime magni incidunt. Delectus, est! \\
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. & Eius adipisci, sed libero. Iste asperiores suscipit, consequatur debitis animi. & Impedit numquam facilis iusto porro labore dolorem, maxime magni incidunt. Delectus, est! \\
       \hline
-    \end{AMOJTable}
+    \end{JSHESSTable}
   \end{table}
 
 \section{Figure and table captions}
@@ -152,11 +150,11 @@ Details of the corresponding author must be included in the footer of the manusc
   \item Full postal address, including country.
 \end{itemize}
 
-This information should be entered using the custom LaTeX commands \verb|\cauthorname|, \verb|\cauthoraddress|, and \verb|\cauthoremail|. The AMOJ LaTeX Template includes these commands as standard.
+This information should be entered using the custom LaTeX commands \verb|\cauthorname|, \verb|\cauthoraddress|, and \verb|\cauthoremail|. The JSHESS LaTeX Template includes these commands as standard.
 
 \section{Mathematical symbols and formulae}
 \label{MathematicalSymbolsFormualae}
-Equations should, where appropriate, be included inline with the main body text. Where this is not possible, equations should be formatted as below. Equations can be easily inserted in the correct format by using the provided AMOJ Equation template. This can be done by clicking the arrow under the equation icon on the Insert tab on the Ribbon and choosing AMOJ Equation from the list of equation templates.
+Equations should, where appropriate, be included inline with the main body text. Where this is not possible, equations should be formatted as below.
 
 \begin{equation}
 e = mc^2

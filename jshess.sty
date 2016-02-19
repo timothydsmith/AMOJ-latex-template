@@ -3,8 +3,8 @@
 % It will be replaced with the standard version when the editorial office
 % complies your manuscript, so any changes you do make will be removed.
 
-% If you have an idea for an improvement: https://github.com/timothydsmith/AMOJ-latex-template
-\ProvidesPackage{amoj}
+% If you have an idea for an improvement: https://github.com/timothydsmith/JSHESS-latex-template
+\ProvidesPackage{jshess}
 
 % Page size and margins
 % ---------------------
@@ -54,8 +54,8 @@
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{1pt}
   %%%% Switch between these two lines to switch between headers with and whithout DOI information
-  % \lhead{\scriptsize \@copyrightauthor. \textit{Australian Meteorological and Oceanographic Journal} (\@copyrightyear) \@volume:\@issue\\DOI: \@doi}
-  \lhead{\scriptsize \@copyrightauthor. \textit{Australian Meteorological and Oceanographic Journal} (\@copyrightyear) \@volume:\@issue\\ \hfill}
+  % \lhead{\scriptsize \@copyrightauthor. \textit{Journal of Southern Hemisphere Earth Systems Science} (\@copyrightyear) \@volume:\@issue\\DOI: \@doi}
+  \lhead{\scriptsize \@copyrightauthor. \textit{Journal of Southern Hemisphere Earth Systems Science} (\@copyrightyear) \@volume:\@issue\\ \hfill}
   %%%%
   \lfoot{\footnotesize \textit{Corresponding author}: \@cauthorname, \@cauthoraddress \\ \textit{Email}: \@cauthoremail}
 }
@@ -164,7 +164,7 @@
 % Tables
 % ------
 \renewcommand{\arraystretch}{0.5}
-\newenvironment{AMOJTable}{\setlength{\tabcolsep}{3mm}\tabularx}{\endtabularx}
+\newenvironment{JSHESSTable}{\setlength{\tabcolsep}{3mm}\tabularx}{\endtabularx}
 
 
 % Addtional Packages
@@ -192,4 +192,4 @@
 
 % Referencing
 \usepackage{natbib}
-\bibliographystyle{amoj}
+\bibliographystyle{jshess}
